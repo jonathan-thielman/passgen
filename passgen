@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script generates a 32-character alphanumeric password using the 
+# "strong" randomness of random. 
+head -c 16 /dev/random | xxd -p
